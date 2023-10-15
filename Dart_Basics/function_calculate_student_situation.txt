@@ -1,0 +1,22 @@
+void main(){
+  var student = situation(-1);
+  print(student);
+}
+
+String situation(int grade){
+  
+  if (grade > 100 || grade < 0){
+    return "Wrong range";
+  }
+    
+  if (grade == 100){
+      return "You had a perfect score!";
+    }
+  else if (grade >= 60 && grade < 100){
+    return "You passed";
+  }
+  
+  else{
+    return "You failed";
+  }
+}

@@ -1,0 +1,19 @@
+void main() {
+  var age  = 19;
+    
+  if (age < 18){
+    print("You are a minor");
+   
+  }
+  
+   else if (age > 65){
+      print("You are an senior");
+      
+    }
+  
+  else{
+    print('You are an adult');
+  }
+  
+  
+}

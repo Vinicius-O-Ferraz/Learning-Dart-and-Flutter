@@ -1,0 +1,8 @@
+//Dart Basics
+//Numbers exercises
+
+//given the double below, asign ot the nearest integer
+void main() {
+  var someNum = 3.6;
+  print(someNum.round());
+}

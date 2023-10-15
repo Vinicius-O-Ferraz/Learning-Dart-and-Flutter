@@ -1,0 +1,7 @@
+//strings
+void main() {
+  
+  //given the string below, replace all the 'x' with a blank string
+  var errorMessage = "Uxh oxh. thexre's a bunch of txypos" ;
+  print(errorMessage.replaceAll('x',''));
+}
